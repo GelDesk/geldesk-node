@@ -1,0 +1,28 @@
+{
+  "name": "geldesk",
+  "version": "1.0.0",
+  "description": "GelDesk for Node.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/devoptix/geldesk-node.git"
+  },
+  "author": "Wayne Bloss <waynebloss@gmail.com> (https://github.com/devoptix)",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/devoptix/geldesk-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "tape": "^4.2.2"
+  }
+}

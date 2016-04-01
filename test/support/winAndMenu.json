@@ -1,0 +1,22 @@
+["main:Window", {
+
+   "title": "Untitled",
+   "startPosition": "center",
+   "visible": true
+ }, 
+  ["menu:Menu", null,
+    ["file", {"text": "&File"}, 
+      ["open", {"text": "&Open"}], 
+      ["separator"], 
+      ["exit", {"text": "E&xit"}]
+    ],
+    ["view", {"text": "&View"}, 
+      ["open", {"text": "&Open"}], 
+      ["separator"], 
+      ["exit", {"text": "E&xit"}]
+    ],
+    ["help", {"text": "&Help"}, 
+      ["about", {"text": "&About"}]
+    ]
+  ]
+]
